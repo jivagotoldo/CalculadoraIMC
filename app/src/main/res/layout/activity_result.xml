@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#6834DF"
+        android:layout_marginTop="16dp"
+        android:text="@string/seu_i_m_c"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#CCEA0606"
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/_27_102"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:textColor="#2850CD"
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:text="@string/classifica_o_abaixo_do_peso"/>
+
+    <TextView
+        android:fontFamily="monospace"
+        android:textColor="#AF0EE4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="05dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginStart="16dp"
+        android:text="@string/tabela_i_m_c"/>
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:textColor="#075E10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="05dp"
+        android:text="@string/menor_que_18_5_abaixo_do_peso"/>
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:textColor="#075E10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="05dp"
+        android:text="@string/entre_18_5_e_24_9_normal"/>
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:textColor="#075E10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="05dp"
+        android:text="@string/entre_25_0_e_29_9_sobrepeso_grau_i"/>
+
+    <TextView
+        android:fontFamily="sans-serif-light"
+        android:textColor="#075E10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="05dp"
+        android:text="@string/entre_30_0_e_39_9_obesidade_grau_ii"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="05dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#075E10"
+        android:text="@string/maior_que_40_0_obesidade_grau_iii"/>
+
+</LinearLayout>

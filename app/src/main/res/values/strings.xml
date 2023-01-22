@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="message_classificacao">Classificação: %1$s!</string>
+    <string name="seu_i_m_c">Seu I.M.C é:</string>
+    <string name="_27_102">27.102</string>
+    <string name="classifica_o_abaixo_do_peso">Classificação: Abaixo do Peso</string>
+    <string name="tabela_i_m_c">TABELA I.M.C</string>
+    <string name="menor_que_18_5_abaixo_do_peso">MENOR QUE 18.5 - ABAIXO DO PESO</string>
+    <string name="entre_18_5_e_24_9_normal">ENTRE 18.5 E 24.9 - NORMAL</string>
+    <string name="entre_25_0_e_29_9_sobrepeso_grau_i">ENTRE 25.0 E 29.9 - SOBREPESO - GRAU I</string>
+    <string name="entre_30_0_e_39_9_obesidade_grau_ii">ENTRE 30.0 E 39.9 - OBESIDADE - GRAU II</string>
+    <string name="maior_que_40_0_obesidade_grau_iii">MAIOR QUE 40.0 - OBESIDADE - GRAU III</string>
+
+</resources>
